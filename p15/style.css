@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease;
+}
+
+.outer_panel {
+    position: absolute;
+    /* background-color: rgb(250, 167, 239); */
+    /* background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%); */
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #e748b7 50%, #f1aef1 100%);
+
+
+    height: 1500px;
+    width: 1800px;
+}
+
+.panel_1 {
+
+    position: absolute;
+    background-color: rgba(255, 180, 246, 0.708);
+    width: 550px;
+    top: 50px;
+    left: 150px;
+    border: 2px solid black;
+    height: 1100px;
+
+}
+
+.panel_2 {
+    position: absolute;
+    background-color: rgba(253, 167, 248, 0.601);
+    width: 550px;
+    top: 50px;
+    left: 850px;
+    border: 2px solid black;
+    height: 1100px;
+}
+
+.sign_in {
+    position: absolute;
+    font-size: 105px;
+    font-family:SansSerif;
+    top: 200px;
+    left: 40px;
+    height: 35px;
+    font-weight: bold;
+    width: 240px;
+}
+
+.text_name {
+    font-size: 30px;
+    position: absolute;
+    padding-left: 10px;
+    top: 310px;
+    left: 40px;
+    height: 55px;
+    width: 440px;
+    border-radius: 20px;
+    font-family: Consolas, Corbel;
+    background-color: rgba(255, 214, 250, 0.708);
+    border: 0;
+}
+
+.text_pass1 {
+    font-size: 30px;
+    position: absolute;
+    padding-left: 10px;
+    top: 380px;
+    left: 40px;
+    height: 55px;
+    width: 440px;
+    border-radius: 20px;
+    font-family: Consolas, Corbel;
+    background-color: rgba(255, 214, 250, 0.708);
+    border: 0;
+}
+
+.checkbox_1 {
+    font-size: 30px;
+    position: absolute;
+
+    top: 450px;
+    left: 60px;
+    height: 35px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+.check_name {
+    font-size: 30px;
+    position: absolute;
+
+    font-family: Consolas, Corbel;
+    top: 450px;
+    left: 120px;
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.btn_sing {
+    font-size: 25px;
+    position: absolute;
+    background-color: rgb(55, 23, 85);
+    color: white;
+    font-weight: bold;
+    top: 520px;
+    left: 40px;
+    font-family: Consolas, Corbel;
+    height: 55px;
+    width: 440px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.pass_forgate {
+    font-size: 20px;
+    position: absolute;
+
+    font-family: Consolas, Corbel;
+    top: 580px;
+    left: 150px;
+    height: 35px;
+    width: 280px;
+    border-radius: 20px;
+}
+
+.line_1 {
+    font-size: 24px;
+    position: absolute;
+
+    font-family: Consolas, Corbel;
+    top: 640px;
+    left: 95px;
+    /* font-weight: bold; */
+    height: 35px;
+    width: 358px;
+    border-radius: 20px;
+}
+
+.link_in_google {
+    font-size: 25px;
+    position: absolute;
+    background-color: rgb(240, 209, 235);
+    border: 0;
+    font-weight: bold;
+    top: 730px;
+    left: 40px;
+    font-family: Consolas, Corbel;
+    height: 55px;
+    width: 440px;
+    border-radius: 20px;
+}
+
+.link_in_facebook {
+    font-size: 25px;
+    position: absolute;
+    background-color: rgb(240, 209, 235);
+    border: 0;
+    font-weight: bold;
+    top: 800px;
+    left: 40px;
+    font-family: Consolas, Corbel;
+    height: 55px;
+    width: 440px;
+    border-radius: 20px;
+}
+
+.line_2 {
+    position: absolute;
+    top: 1000px;
+    font-size: 25px;
+    left: 120px;
+    font-weight: bold;
+    font-family: Consolas, Corbel;
+}
+
+/* -----------------------------------First page end---------------------------------- */
+/* -----------------------------------Secound page ---------------------------------- */
+.sign_in_1 {
+    position: absolute;
+    font-size: 35px;
+    font-family:SansSerif;
+    top: 200px;
+    left: 40px;
+    height: 35px;
+    font-weight: bold;
+    width: 550px;
+}
+
+.text_name_1 {
+    font-size: 30px;
+    position: absolute;
+    padding-left: 10px;
+    top: 310px;
+    left: 40px;
+    height: 55px;
+    width: 440px;
+    border-radius: 20px;
+    font-family: Consolas, Corbel;
+    background-color: rgba(255, 214, 250, 0.708);
+    border: 0;
+}
+
+.text_email_1 {
+    font-size: 30px;
+    position: absolute;
+    padding-left: 10px;
+    top: 380px;
+    left: 40px;
+    height: 55px;
+    width: 440px;
+    border-radius: 20px;
+    font-family: Consolas, Corbel;
+    background-color: rgba(255, 214, 250, 0.708);
+    border: 0;
+}
+
+.text_pass1_1 {
+    font-size: 30px;
+    position: absolute;
+    padding-left: 10px;
+    top: 450px;
+    left: 40px;
+    height: 55px;
+    width: 440px;
+    border-radius: 20px;
+    font-family: Consolas, Corbel;
+    background-color: rgba(255, 214, 250, 0.708);
+    border: 0;
+}
+.checkbox_1_1 {
+    font-size: 30px;
+    position: absolute;
+
+    top: 520px;
+    left: 60px;
+    height: 20px;
+    width: 60px;
+    border-radius: 20px;
+}
+.check_name_1 {
+    font-size: 20px;
+    position: absolute;
+
+    font-family: Consolas, Corbel;
+    top: 523px;
+    left: 110px;
+    height: 35px;
+    width: 400px;
+    border-radius: 20px;
+}
+.btn_sing_1 {
+    font-size: 25px;
+    position: absolute;
+    background-color: rgb(55, 23, 85);
+    color: white;
+    font-weight: bold;
+    top: 590px;
+    left: 40px;
+    font-family: Consolas, Corbel;
+    height: 55px;
+    width: 440px;
+    border: 0;
+    border-radius: 20px;
+}
+.line_2_1 {
+    position: absolute;
+    top: 1000px;
+    font-size: 25px;
+    left: 120px;
+    font-weight: bold;
+    font-family: Consolas, Corbel;
+}
